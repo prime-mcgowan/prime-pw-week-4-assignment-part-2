@@ -1,0 +1,84 @@
+/**Start of Header Section**/
+body {
+    background-color: #FBAB7E;
+}
+/**End of Header Section**/
+
+
+/**Start of Header Section**/
+header {
+    align-items: center;
+    background-color: #b3dee5;
+    color: #31525b;
+    display: flex;
+    justify-content: center;
+
+}
+/**End of Header Section**/
+
+
+/**Start of Paragraph AND Animation Section**/
+p {
+    animation: text 3s 3;
+    color:#ffa101;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 40px;
+    
+}
+
+@keyframes text {
+    0% {
+}
+    20%{
+        font-weight: bold;
+        letter-spacing: 5px;
+}
+}
+/**End of Paragraph AND Animation Section**/
+
+
+/**Start of Car/Img Animation Section**/
+.car {
+  display: flex; 
+  justify-content: center;
+  padding-top: 10px;
+}
+
+img:hover {
+    animation-duration: 0.7s;
+    animation-name: rotate;    
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/**End of car/img Animation Section**/
+
+
+/**Start of Info Section**/
+.info {
+   background-color: #31525b;
+   color: #ffa101;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+/**End of Info Section**/
+
+
+/**Start of h3 Section**/
+h3 {
+    background-color: #31525b;
+    color: #ffa101;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;   
+}
+/**End of h3 Section**/
