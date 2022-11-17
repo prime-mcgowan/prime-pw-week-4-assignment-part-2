@@ -30,9 +30,9 @@ p {
 @keyframes text {
     0% {
 }
-    20%{
+    5%{
         font-weight: bold;
-        letter-spacing: 5px;
+        letter-spacing: 3px;
 }
 }
 /**End of Paragraph AND Animation Section**/
