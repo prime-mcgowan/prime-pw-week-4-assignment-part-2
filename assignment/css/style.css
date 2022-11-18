@@ -1,8 +1,9 @@
 /**Start of Header Section**/
 body {
-    background-color: #FBAB7E;
+    background-color: #f0c6ae;
 }
 /**End of Header Section**/
+
 
 
 /**Start of Header Section**/
@@ -12,7 +13,6 @@ header {
     color: #31525b;
     display: flex;
     justify-content: center;
-
 }
 /**End of Header Section**/
 
@@ -67,7 +67,7 @@ img:hover {
    color: #ffa101;
    display: flex;
    justify-content: center;
-   margin-top: 20px;
+   margin-top: 40px;
 }
 /**End of Info Section**/
 
@@ -82,3 +82,30 @@ h3 {
     padding-top: 20px;   
 }
 /**End of h3 Section**/
+
+
+/**Start of Dream/Button Section**/
+.dream {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;  
+}
+
+h1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1 span {
+    color:#31525b;
+    padding-right: 7px;
+    text-decoration: underline;
+}
+
+#button {
+    background-color: #ffa101;
+    display: flex;
+    font-size:10px;
+}
+/**End of Dream/Button Section**/
+
