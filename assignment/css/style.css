@@ -1,9 +1,8 @@
-/**Start of Header Section**/
+/**Start of Body Section**/
 body {
     background-color: #f0c6ae;
 }
-/**End of Header Section**/
-
+/**End of Body Section**/
 
 
 /**Start of Header Section**/
@@ -17,14 +16,13 @@ header {
 /**End of Header Section**/
 
 
-/**Start of Paragraph AND Animation Section**/
+/**Start of Paragraph AND Text Animation Section**/
 p {
     animation: text 3s 3;
     color:#ffa101;
     font-size: 20px;
     font-weight: bold;
     padding-left: 40px;
-    
 }
 
 @keyframes text {
@@ -35,10 +33,10 @@ p {
         letter-spacing: 3px;
 }
 }
-/**End of Paragraph AND Animation Section**/
+/**End of Paragraph AND Text Animation Section**/
 
 
-/**Start of Car/Img Animation Section**/
+/**Start of Car/Img Hover Animation Section**/
 .car {
   display: flex; 
   justify-content: center;
@@ -58,7 +56,7 @@ img:hover {
         transform: rotate(360deg);
     }
 }
-/**End of car/img Animation Section**/
+/**End of car/img Hover Animation Section**/
 
 
 /**Start of Info Section**/
@@ -97,7 +95,7 @@ h1 {
 }
 
 h1 span {
-    color:#31525b;
+    color:#1c4854;
     padding-right: 7px;
     text-decoration: underline;
 }
